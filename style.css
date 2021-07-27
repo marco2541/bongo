@@ -8,6 +8,7 @@
 
      font-family: "neon";
      src: url("NEON\ ABSOLUTE\ SANS1.ttf");
+
 }
 
 h2{
@@ -15,18 +16,16 @@ h2{
      font-size: 150%;
      color: aquamarine;
      
-
-
 }
 
 
 
 .logo-menu {
 
-
      margin: 25px;
      padding: 30px;
      display: grid;
+
 }
 
 .logo{
@@ -35,26 +34,19 @@ h2{
      margin: 20px;
      width: 100%;
      height: 100%;
-     
-     
-     
 
-     
 }
 
 #navegador{
-
     
     margin: -45px;
     width: 100%;
     height: 100%;
     
-    
 
 }
 
 #navegador ul{
-
     
      list-style-type: none;
      text-align: center;
@@ -70,30 +62,19 @@ h2{
 }
 
 .blanco{
+
     color: rgb(255, 255, 255);
+
 }
     
-
 navegador li a:hover{
-
      
      color: #f7f7f7;
+
 }
 
 .color{
 
     color: aqua;
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     
 }
