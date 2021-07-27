@@ -1,13 +1,8 @@
-
-    
-
 body{
-     background-color:#020021;
-}
-@media(max-width: 600px) {
-body {
-     background-color: crimson;
-   }     
+     
+     background-color: rgb(145, 145, 212);
+     
+
 }
 
 @font-face {
@@ -15,94 +10,77 @@ body {
      font-family: "neon";
      src: url("NEON\ ABSOLUTE\ SANS1.ttf");
 }
-
-h1{
-
-     font-family: neon;
-     font-size: 150%;
-     color: aquamarine;    
-}
-h2{
-     color: darkkhaki;
-}
-.logo-menu {
-
-     display:flex;
-     justify-content: space-between;
-     align-items: center;
-}
-
-.logo{
+.container-principal{
     
-     border-radius: 20px;
-     margin: 50px;
-     width: 100%;
-     height: 100%;
+}
+
+.logo-menu{
+
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+
+}
+.logo{
+
+     margin: 20px;
 }
 
 #navegador{
-    
-    margin: -45px;
-    width: 100%;
-    height: 100%;
-    
+     margin: 20px;
 }
 
 #navegador ul{
       
      list-style-type: none;
      text-align: center;
-     margin-right: auto;
 }
 
 #navegador li{
     
      display: inline;
      text-align: center;
-     margin: 0 50px 0 0;     
-}
-
-.blanco{
-
-    color: rgb(255, 255, 255);
-}
-    
-navegador li a:hover{
-     
-     color: #f7f7f7;
+     margin: 0 50px 0 0;
 }
 
 .color{
 
-    color: aqua;    
+     color: aqua;
+     
+ }
+
+.blanco, a , h1{
+
+     color: rgb(255, 255, 255);
+ 
+ }
+
+.neon{
+
+     font-family: neon;
+     font-size: 150%;
+     color: aquamarine;
+     
 }
 
 .music-picture-boton{
-
-
-
+     
+     
+     display: flex;
+   
+    align-items: center;
+     
+         
 }
-
 .titulo{
-
-    width: 100%;
-    padding: 20px;
-    padding-bottom: 50px;
-    padding-top: 10px;
-    margin-left: 28px;
-
+     
+          
 }
-a{ 
-     color: darkkhaki;
+img{
+  flex-wrap:nowrap;
+  margin:50px;
+  height:413px;
+  width: 600px;   
 }
-.img{
-   flex-wrap: wrap;
-   width: 600px;
-   height: 400px;  
-    
-}
-@media(max-width: 50px) {
-
-.img{
- display:none;} 
-}
+.boton
