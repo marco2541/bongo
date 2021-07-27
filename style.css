@@ -24,12 +24,17 @@ body{
 
 }
 .logo{
-
+     width: 237px;
+height: 43px;
+left: 223px;
+top: 85px;
      margin: 20px;
 }
 
 #navegador{
+     
      margin: 20px;
+
 }
 
 #navegador ul{
@@ -44,6 +49,8 @@ body{
      text-align: center;
      margin: 0 50px 0 0;
 }
+
+
 
 .color{
 
@@ -69,20 +76,34 @@ body{
      
      
      display: flex;
-    justify-content: space-between;
-    align-items: center;
-     
-     
-     
-     
-     
-     
+     justify-content: space-between;
+     align-items: center;
+
 }
 .titulo{
      
-          
-}
-.img{
+     margin: 20px;
+     width: 299px;
+     height: 164.95px;
+     left: 220px;
      
+}
+.imgen{
+     margin: 30px;
+     margin-top: 100px;
+     width: 600px;
+     height: 413,85px;
+     
+
+}
+.boton{
+
+     margin-top: 20px;
+     width: 182px;
+     height: 53px;
+     left: 220px;
+     border: 0px;
+     background-color: #00f482;
+     border-radius: 25px;
 }
 
