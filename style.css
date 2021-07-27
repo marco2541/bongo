@@ -1,6 +1,5 @@
 .container-principal {
      
-     
      background-color: rgb(178, 178, 211);
     
 }
@@ -12,7 +11,7 @@
 
 }
 
-h2{
+h1{
 
      font-family: neon;
      font-size: 150%;
@@ -24,9 +23,9 @@ h2{
 
 .logo-menu {
 
-     margin: 25px;
+     
      padding: 30px;
-     display: grid;
+     display: flex;
 
 }
 
@@ -110,9 +109,4 @@ navegador li a:hover{
      left: 558px;
      top: 217px;
 
- }
-
-
-     
-
-     
+ 
