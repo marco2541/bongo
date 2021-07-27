@@ -78,3 +78,25 @@ navegador li a:hover{
     color: aqua;
     
 }
+.boton{
+     padding: 0,5px;
+     background: aqua;
+   
+     cursor:pointer ;
+     position: relative;
+     border-radius:20px;
+     overflow: hidden;
+     height: 30px;
+     width: 100px;
+     font-size:12px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: blanchedalmond;
+}
+img{
+     height: 115px;
+     width: 220px;
+ }
+
+     
+
+     
