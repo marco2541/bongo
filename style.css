@@ -12,7 +12,6 @@ body{
 .container-pricipal{
 
      
-     
      width: 970px;
      height: 1045px;
      left: 61px;
@@ -64,13 +63,13 @@ h2{
 }
 
 #navegador ul{
-      
+    
      list-style-type: none;
      text-align: center;
 }
 
 #navegador li{
-    
+
      display: inline;
      text-align: center;
      margin: 0 50px 0 0;
@@ -135,3 +134,38 @@ h2{
      background-color: #00f482;
      border-radius: 25px;
 }
+
+.boton-blanco{
+
+     width: 182px;
+     height: 53px;
+     left: 220px;
+     border: 0px;
+     border-radius: 25px;
+     transition: all .2s;
+}
+button:hover{
+     width: 200px;
+     border-radius: 50px;
+     transition: all .5;
+}
+
+
+
+.final-text-boton2{
+
+     display: flex;
+     justify-content: center;
+     
+
+}
+
+.final-tex{
+
+     text-align:center;
+     justify-content: right;
+     
+
+}
+@media only img and( max width: 600px 
+height: 413,85px;)
