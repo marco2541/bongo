@@ -1,11 +1,11 @@
 body{
-     position: relative;
-     width: 1251px;
+     
+     width: 970px;
      display: flex;
-     justify-content: space-between;
+     height: 1045;
      align-items: center;
      background-color: #020021;
-     
+     margin: auto;
 
 }
 
@@ -13,8 +13,8 @@ body{
 
      
      
-     width: 1129px;
-     height: 834px;
+     width: 970px;
+     height: 1045px;
      left: 61px;
      top: 54px;
 
@@ -95,6 +95,8 @@ h2{
      font-size: 150%;
      color: aquamarine;
 
+     
+
 }
 
 .music-picture-boton{
@@ -133,6 +135,23 @@ h2{
      background-color: #00f482;
      border-radius: 25px;
 }
+
+.boton-blanco{
+
+     width: 182px;
+     height: 53px;
+     left: 220px;
+     border: 0px;
+     border-radius: 25px;
+     transition: all .2s;
+}
+button:hover{
+     width: 200px;
+     border-radius: 50px;
+     transition: all .5;
+}
+
+
 
 .final-text-boton2{
 
