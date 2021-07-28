@@ -8,7 +8,7 @@ body{
 
      font-family: "neon";
      src: url("NEON\ ABSOLUTE\ SANS1.ttf");
-    
+
 }
 @font-face {
 
@@ -18,25 +18,27 @@ body{
 }
 
 h2{
-     
-    
-  font-family:roboto;
+
+     font-family:roboto;
+
 }
 
 .logo-menu{
 
      display: flex;
-    justify-content: space-between;
-    align-items: center;
+     justify-content: space-between;
+     align-items: center;
      
-
 }
+
 .logo{
+
      width: 237px;
-height: 43px;
-left: 223px;
-top: 85px;
+     height: 43px;
+     left: 223px;
+     top: 85px;
      margin: 20px;
+
 }
 
 #navegador{
@@ -58,53 +60,53 @@ top: 85px;
      margin: 0 50px 0 0;
 }
 
-
-
 .color{
 
      color: aqua;
      
- }
+}
 
-.blanco, a , h1 , b , li { 
+.blanco, a , h1 , p , li { 
 
      color: rgb(255, 255, 255);
      font-family: roboto;
- 
- }
+
+}
 
 .neon{
 
      font-family: neon;
      font-size: 150%;
      color: aquamarine;
-     
+
 }
 
 .music-picture-boton{
-     
-     
+
      display: flex;
      justify-content: space-between;
      align-items: center;
 
 }
+
 .titulo{
-     
+
      margin: 20px;
      width: 299px;
      height: 164.95px;
      left: 220px;
      
 }
-.imgen{
+
+.img{
+
      margin: 30px;
      margin-top: 100px;
      width: 600px;
      height: 413,85px;
-     
 
 }
+
 .boton{
 
      margin-top: 20px;
@@ -115,3 +117,23 @@ top: 85px;
      background-color: #00f482;
      border-radius: 25px;
 }
+<<<<<<< HEAD
+=======
+
+.final-text-boton2{
+
+     display: flex;
+     justify-content: center;
+     
+
+}
+
+.final-tex{
+
+     text-align:center;
+     justify-content: right;
+     
+
+}
+
+>>>>>>> e0256f0cc20a59752ff8ecb74e8bafd5845324ec
