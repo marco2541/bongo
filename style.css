@@ -151,6 +151,7 @@ p{
      transition: all .2s;
 }
 button:hover{
+     
      width: 200px;
      border-radius: 50px;
      transition: all .5;
@@ -192,6 +193,12 @@ button:hover{
            display: none;
      }
 }
-
+.prueba{
+     width: 182px;
+     height: 53px;
+     left: 220px;
+     border: 0px;
+     border-radius: 25px;
+     
 
 
