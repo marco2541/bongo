@@ -1,9 +1,12 @@
 body{
      
-     width: 970px;
+     width: 100%;
+     max-width: 1080px;
      display: flex;
-     height: 1045;
-     align-items: center;
+     height: 100%;
+     flex-direction: column;
+     justify-content: center;
+     
      background-color: #020021;
      margin: auto;
 
@@ -11,11 +14,12 @@ body{
 
 .container-pricipal{
 
+     display: flex;
+
+     width: 100%;
      
-     width: 970px;
-     height: 1045px;
      left: 61px;
-     top: 54px;
+     
 
 }
 
@@ -49,18 +53,13 @@ h2{
 .logo{
 
      width: 237px;
-     height: 43px;
+    
      left: 223px;
      top: 85px;
      margin: 20px;
 
 }
 
-#navegador{
-     
-     margin: 20px;
-
-}
 
 #navegador ul{
     
@@ -166,4 +165,23 @@ button:hover{
      justify-content: right;
      
 
+}
+
+@media (max-width: 400px) {
+     
+     .logo-menu {
+          justify-content: center;
+     }
+
+     #navegador {
+          position:absolute
+          display:none;
+          magin:0 50px 0 0;
+
+     }
+     .img{ 
+      display:none;
+     }
+.final-tex{
+     display:none;
 }
