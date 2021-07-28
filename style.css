@@ -1,6 +1,22 @@
 body{
-     
+     position: relative;
+     width: 1251px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
      background-color: #020021;
+     
+
+}
+
+.container-pricipal{
+
+     
+     
+     width: 1129px;
+     height: 834px;
+     left: 61px;
+     top: 54px;
 
 }
 
