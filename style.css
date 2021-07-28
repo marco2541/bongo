@@ -1,9 +1,12 @@
 body{
      
-     width: 970px;
+     width: 100%;
+     max-width: 1080px;
      display: flex;
-     height: 1045;
-     align-items: center;
+     height: 100%;
+     flex-direction: column;
+     justify-content: center;
+     
      background-color: #020021;
      margin: auto;
 
@@ -11,12 +14,12 @@ body{
 
 .container-pricipal{
 
-     
+     display: flex;
      
      width: 970px;
-     height: 1045px;
+     height: 100%;
      left: 61px;
-     top: 54px;
+     
 
 }
 
@@ -58,8 +61,11 @@ h2{
 }
 
 #navegador{
-     
+     width: 100%;
+     max-width: 1080px;
+     height: 100%;
      margin: 20px;
+     
 
 }
 
