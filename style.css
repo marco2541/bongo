@@ -1,6 +1,22 @@
 body{
      
+     width: 970px;
+     display: flex;
+     height: 1045;
+     align-items: center;
      background-color: #020021;
+     margin: auto;
+
+}
+
+.container-pricipal{
+
+     
+     
+     width: 970px;
+     height: 1045px;
+     left: 61px;
+     top: 54px;
 
 }
 
@@ -79,6 +95,8 @@ h2{
      font-size: 150%;
      color: aquamarine;
 
+     
+
 }
 
 .music-picture-boton{
@@ -119,6 +137,23 @@ h2{
 }
 <<<<<<< HEAD
 =======
+
+.boton-blanco{
+
+     width: 182px;
+     height: 53px;
+     left: 220px;
+     border: 0px;
+     border-radius: 25px;
+     transition: all .2s;
+}
+button:hover{
+     width: 200px;
+     border-radius: 50px;
+     transition: all .5;
+}
+
+
 
 .final-text-boton2{
 
