@@ -1,7 +1,6 @@
 body{
      
-     background-color: rgb(145, 145, 212);
-     
+     background-color: #020021;
 
 }
 
@@ -9,9 +8,19 @@ body{
 
      font-family: "neon";
      src: url("NEON\ ABSOLUTE\ SANS1.ttf");
-}
-.container-principal{
     
+}
+@font-face {
+
+     font-family: roboto;
+     src:url(Roboto-Regular.ttf)
+
+}
+
+h2{
+     
+    
+  font-family:roboto;
 }
 
 .logo-menu{
@@ -57,9 +66,10 @@ top: 85px;
      
  }
 
-.blanco, a , h1 ,b ,li{
+.blanco, a , h1 , b , li { 
 
      color: rgb(255, 255, 255);
+     font-family: roboto;
  
  }
 
