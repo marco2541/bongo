@@ -265,7 +265,26 @@ p{
      opacity: 0;
 
 }
-
-
+.bombo{
+     position: absolute;
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-right: 289px;
+     margin-top: 322px;
+     
+}
+.caja{
+     position: absolute;
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-left: 289px;
+     margin-top: 322px;    
+}
 
 
