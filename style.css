@@ -111,9 +111,11 @@ p{
 .titulo{
 
      margin: 20px;
-     width: 299px;
-     height: 164.95px;
-     left: 220px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+
+     
      
 
 .img{
@@ -193,24 +195,75 @@ p{
      
  
 }
-.platillo{
+.plato-ride{
      position: absolute;
      width: 92px;
      height: 92px;
      border-radius: 50%;
      border: none;
      background-color: beige;
-     
+     opacity: 0;
      margin-right: 480px;
      margin-top: 121px;
 }
-.tambor{
+.plato-crash{
      position: absolute;
      width: 92px;
      height: 92px;
      border-radius: 50%;
      border: none;
      background-color: beige;
+     margin-left: 480px;
+     margin-top: 121px;
+     opacity: 0;
+}
+.tom2{
+     position: absolute;
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-right: 150px;
+     margin-top: 165px;
+     opacity: 0;
+
+}
+.tom1{
+     position: absolute;
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-left: 140px;
+     margin-top: 165px;
+     opacity: 0;
+
+}
+.tom-base{
+     position: absolute;
+     width: 92px;
+     height: 92px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-right: 410px;
+     margin-top: 220px;
+     opacity: 0;
+
+}
+.hit-hat{
+     position: absolute;
+     width: 92px;
+     height: 92px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-left: 380px;
+     margin-top: 220px;
+     opacity: 0;
+
 }
 
 
