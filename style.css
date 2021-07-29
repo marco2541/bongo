@@ -1,26 +1,19 @@
 body{
      
+
+     background-color: #020021;
+}
+
+.container-principal{
+     font-family:roboto;
      width: 100%;
      max-width: 1080px;
      display: flex;
-     height: 100%;
      flex-direction: column;
-     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
      
-     background-color: #020021;
-     margin: auto;
-
-}
-
-.container-pricipal{
-
-     display: flex;
-
-     width: 100%;
      
-     left: 61px;
-     
-
 }
 
 @font-face {
@@ -36,30 +29,34 @@ body{
 
 }
 
-h2{
-
-     font-family:roboto;
-
-}
 
 .logo-menu{
-
+     height: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
-     
+     width: 100%;
 }
 
 .logo{
 
-     width: 237px;
-    
+     width: 237px;  
      left: 223px;
      top: 85px;
      margin: 20px;
 
 }
 
+
+
+#navegador{
+     
+     
+     
+     margin: 20px;
+     
+
+}
 
 #navegador ul{
     
@@ -87,22 +84,26 @@ h2{
 
 }
 
+p{
+     margin: 0px;
+}
+
 .neon{
 
      font-family: neon;
      font-size: 150%;
      color: aquamarine;
-
+     margin: 0px;
      
 
 }
 
 .music-picture-boton{
-
+     height: 100%;
      display: flex;
      justify-content: space-between;
      align-items: center;
-
+     width: 100%;
 }
 
 .titulo{
@@ -138,24 +139,19 @@ h2{
 
      width: 182px;
      height: 53px;
-     left: 220px;
-     border: 0px;
      border-radius: 25px;
      transition: all .2s;
 }
-button:hover{
-     width: 200px;
-     border-radius: 50px;
-     transition: all .5;
-}
+
+
 
 
 
 .final-text-boton2{
-
+     height: 100%;
      display: flex;
      justify-content: center;
-     
+     width: 100%;
 
 }
 
@@ -167,21 +163,32 @@ button:hover{
 
 }
 
-@media (max-width: 400px) {
-     
-     .logo-menu {
-          justify-content: center;
-     }
+@media (max-width: 600px){
 
-     #navegador {
-          position:absolute
-          display:none;
-          magin:0 50px 0 0;
+.logo-menu{justify-content: center;
+}     
 
+
+     #navegador{
+          position: absolute;
+          display: none;
+          margin: 0 50px 0  0;
      }
-     .img{ 
-      display:none;
+     .img{
+          display: none;
      }
-.final-tex{
-     display:none;
+     .final-tex{
+           display: none;
+     }
 }
+
+.boton1{
+     display: block;
+     width: 50px;
+     height: 50px;
+     display: block;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+   }
+
