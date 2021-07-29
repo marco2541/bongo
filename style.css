@@ -1,7 +1,7 @@
 body{
      
-
      background-color: #020021;
+     
 }
 
 .container-principal{
@@ -12,7 +12,7 @@ body{
      flex-direction: column;
      align-items: center;
      margin: 0 auto;
-     
+     background-color: #020021;
      
 }
 
@@ -29,11 +29,8 @@ body{
 
 }
 
-h2{
 
-     
 
-}
 
 .logo-menu{
      height: 100%;
@@ -127,7 +124,7 @@ p{
      margin-top: 100px;
      width: 600px;
      height: 413,85px;
-
+ 
 }
 
 .boton{
@@ -135,7 +132,7 @@ p{
      margin-top: 20px;
      width: 182px;
      height: 53px;
-     left: 220px;
+     
      border: 0px;
      background-color: #00f482;
      border-radius: 25px;
@@ -143,18 +140,11 @@ p{
 
 .boton-blanco{
 
+     
      width: 182px;
      height: 53px;
-     left: 220px;
      border: 0px;
      border-radius: 25px;
-     transition: all .2s;
-}
-button:hover{
-     
-     width: 200px;
-     border-radius: 50px;
-     transition: all .5;
 }
 
 
@@ -193,12 +183,21 @@ button:hover{
            display: none;
      }
 }
-.prueba{
-     width: 182px;
-     height: 53px;
-     left: 220px;
-     border: 0px;
-     border-radius: 25px;
-     
+
+.picture{
+     position: relative;
+}
+.redondo{
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     border: none;
+     background-color: beige;
+     margin-right: 483px;
+     margin-top: 350px;
+}
+
+
 
 
