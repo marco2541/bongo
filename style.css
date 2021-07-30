@@ -1,290 +1,258 @@
-body{
-     
-     background-color: #020021;
-     
+body {
+    background-color: #020021;
 }
 
-.container-principal{
-     font-family:roboto;
-     width: 100%;
-     max-width: 1080px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin: 0 auto;
-     background-color: #020021;
-     
+.container-principal {
+    font-family: roboto;
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #020021;
 }
 
 @font-face {
-
-     font-family: "neon";
-     src: url("NEON\ ABSOLUTE\ SANS1.ttf");
-
+    font-family: "neon";
+    src: url("NEON\ ABSOLUTE\ SANS1.ttf");
 }
+
 @font-face {
-
-     font-family: roboto;
-     src:url(Roboto-Regular.ttf)
-
+    font-family: roboto;
+    src: url(Roboto-Regular.ttf)
 }
 
-
-
-
-.logo-menu{
-     height: 100%;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: 100%;
+.logo-menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.logo{
-
-     width: 237px;  
-     left: 223px;
-     top: 85px;
-     margin: 20px;
-
+.logo {
+    width: 237px;
+    left: 223px;
+    top: 85px;
+    margin: 20px;
 }
 
-
-
-#navegador{
-     
-     
-     
-     margin: 20px;
-     
-
+#navegador {
+    margin: 20px;
 }
 
-#navegador ul{
-    
-     list-style-type: none;
-     text-align: center;
+#navegador ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-#navegador li{
-
-     display: inline;
-     text-align: center;
-     margin: 0 50px 0 0;
+#navegador li {
+    display: inline;
+    text-align: center;
+    margin: 0 50px 0 0;
 }
 
-.color{
-
-     color: aqua;
-     
+.color {
+    color: aqua;
 }
 
-.blanco, a , h1 , p , li { 
-
-     color: rgb(255, 255, 255);
-     font-family: roboto;
-
+.blanco,
+a,
+h1,
+p,
+li {
+    color: rgb(255, 255, 255);
+    font-family: roboto;
 }
 
-p{
-     margin: 0px;
+b {
+    color: white;
 }
 
-.neon{
-
-     font-family: neon;
-     font-size: 150%;
-     color: aquamarine;
-     margin: 0px;
-     
-
+p {
+    margin: 0px;
 }
 
-.music-picture-boton{
-     height: 100%;
-     display: flex;
-     justify-content: space-between;
-     
-     width: 100%;
+.neon {
+    font-family: neon;
+    font-size: 150%;
+    color: aquamarine;
+    margin: 0px;
 }
 
-.titulo{
-
-     margin: 20px;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-
-}
-     
-
-.img{
-
-     margin: 30px;
-     margin-top:100px;
-     width: 600px;
-     height: 413,85px;
- 
+.music-picture-boton {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.boton{
-
-     margin-top: 20px;
-     width: 182px;
-     height: 53px;
-     
-     border: 0px;
-     background-color: #00f482;
-     border-radius: 25px;
+.titulo {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.boton-blanco{
-
-     
-     width: 182px;
-     height: 53px;
-     border: 0px;
-     border-radius: 25px;
+.img {
+    margin: 30px;
+    margin-top: 100px;
+    width: 600px;
+    height: 413, 85px;
 }
 
-
-
-.final-text-boton2{
-     height: 100%;
-     display: flex;
-     justify-content: center;
-     width: 100%;
-
+.boton {
+    margin-top: 20px;
+    width: 182px;
+    height: 53px;
+    border: 0px;
+    background-color: #00f482;
+    border-radius: 25px;
 }
 
-.final-tex{
-
-     text-align:center;
-     justify-content: right;
-     
-
+.boton-blanco {
+    width: 182px;
+    height: 53px;
+    border: 0px;
+    border-radius: 25px;
 }
 
-@media (max-width: 600px){
-
-.logo-menu{justify-content: center;
-}     
-
-
-     #navegador{
-          position: absolute;
-          display: none;
-          margin: 0 50px 0  0;
-     }
-     .img{
-          display: none;
-     }
-     .final-tex{
-           display: none;
-     }
+.final-text-boton2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.picture{
-     position: relative;
-     display: flex;
-     justify-content: center;
-     width: 50%;
-     max-width: 550%;
-     height: auto;
-     margin-right: 80px;
-     
- 
-}
-.plato-ride{
-     position: absolute;
-     width: 92px;
-     height: 92px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     opacity: 0;
-     margin-right: 480px;
-     margin-top: 121px;
-}
-.plato-crash{
-     position: absolute;
-     width: 92px;
-     height: 92px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-left: 480px;
-     margin-top: 121px;
-     opacity: 0;
-}
-.tom2{
-     position: absolute;
-     width: 120px;
-     height: 120px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-right: 150px;
-     margin-top: 165px;
-     opacity: 0;
-
-}
-.tom1{
-     position: absolute;
-     width: 120px;
-     height: 120px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-left: 140px;
-     margin-top: 165px;
-     opacity: 0;
-
-}
-.tom-base{
-     position: absolute;
-     width: 92px;
-     height: 92px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-right: 410px;
-     margin-top: 220px;
-     opacity: 0;
-
-}
-.hit-hat{
-     position: absolute;
-     width: 92px;
-     height: 92px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-left: 380px;
-     margin-top: 220px;
-     opacity: 0;
-
-}
-.bombo{
-     position: absolute;
-     width: 120px;
-     height: 120px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-right: 289px;
-     margin-top: 322px;
-     
-}
-.caja{
-     position: absolute;
-     width: 120px;
-     height: 120px;
-     border-radius: 50%;
-     border: none;
-     background-color: beige;
-     margin-left: 289px;
-     margin-top: 322px;    
+.final-tex {
+    text-align: center;
+    justify-content: right;
 }
 
+.see {
+    color: black;
+}
 
+@media (max-width: 600px) {
+    .logo-menu {
+        justify-content: center;
+    }
+    #navegador {
+        position: absolute;
+        display: none;
+        margin: 0 50px 0 0;
+    }
+    .img {
+        display: none;
+    }
+    .final-tex {
+        display: none;
+    }
+}
+
+.picture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 550%;
+    height: auto;
+    margin-right: 80px;
+}
+
+.plato-ride {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    opacity: 0;
+    margin-right: 480px;
+    margin-top: 121px;
+}
+
+.plato-crash {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-left: 480px;
+    margin-top: 121px;
+    opacity: 0;
+}
+
+.tom2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-right: 150px;
+    margin-top: 165px;
+    opacity: 0;
+}
+
+.tom1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-left: 140px;
+    margin-top: 165px;
+    opacity: 0;
+}
+
+.tom-base {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-right: 410px;
+    margin-top: 220px;
+    opacity: 0;
+}
+
+.hit-hat {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-left: 380px;
+    margin-top: 220px;
+    opacity: 0;
+}
+
+.bombo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-right: 289px;
+    margin-top: 322px;
+    opacity: 0;
+}
+
+.caja {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    margin-left: 289px;
+    margin-top: 322px;
+    opacity: 0;
+}
