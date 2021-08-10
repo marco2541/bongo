@@ -168,9 +168,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    opacity: 0;
-    margin-right: 480px;
-    margin-top: 121px;
+    
+    left: -3%;
+    top: 22%;
 }
 
 .plato-crash {
@@ -180,9 +180,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-left: 480px;
-    margin-top: 121px;
-    opacity: 0;
+    right: -2%;
+    top: 22%;
+    
 }
 
 .tom2 {
@@ -192,9 +192,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-right: 150px;
-    margin-top: 165px;
-    opacity: 0;
+    left: 25%;
+    top: 30%;
+    
 }
 
 .tom1 {
@@ -204,9 +204,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-left: 140px;
-    margin-top: 165px;
-    opacity: 0;
+    right: 26%;
+    top: 30%;
+    
 }
 
 .tom-base {
@@ -216,9 +216,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-right: 410px;
-    margin-top: 220px;
-    opacity: 0;
+    left: 5%;
+    top: 40%;
+    
 }
 
 .hit-hat {
@@ -228,9 +228,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-left: 380px;
-    margin-top: 220px;
-    opacity: 0;
+    right: 6%;
+    top: 40%;
+    
 }
 
 .bombo {
@@ -240,9 +240,9 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-right: 289px;
-    margin-top: 322px;
-    opacity: 0;
+    left: 12%;
+    top: 59%;
+    
 }
 
 .caja {
@@ -252,7 +252,11 @@ p {
     border-radius: 50%;
     border: none;
     background-color: beige;
-    margin-left: 289px;
-    margin-top: 322px;
-    opacity: 0;
+    right: 12%;
+    top: 59%;
+    
+}
+
+#audio {
+    display: none
 }
