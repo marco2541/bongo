@@ -1,7 +1,7 @@
 .plato-ride {
     position: absolute;
-    width: 92px;
-    height: 92px;
+    width: 17%;
+    height: 17%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -12,8 +12,8 @@
 
 .plato-crash {
     position: absolute;
-    width: 92px;
-    height: 92px;
+    width: 17%;
+    height: 17%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -24,8 +24,8 @@
 
 .tom2 {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 23%;
+    height: 23%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -36,8 +36,8 @@
 
 .tom1 {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 23%;
+    height: 23%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -48,8 +48,8 @@
 
 .tom-base {
     position: absolute;
-    width: 92px;
-    height: 92px;
+    width: 17%;
+    height: 17%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -60,8 +60,8 @@
 
 .hit-hat {
     position: absolute;
-    width: 92px;
-    height: 92px;
+    width: 17%;
+    height: 17%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -72,8 +72,8 @@
 
 .bombo {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 22%;
+    height: 22%;
     border-radius: 50%;
     border: none;
     background-color: beige;
@@ -84,12 +84,12 @@
 
 .caja {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 22%;
+    height: 22%;
     border-radius: 50%;
     border: none;
     background-color: beige;
-    right: 12%;
+    right: 13%;
     top: 59%;
     
 }
