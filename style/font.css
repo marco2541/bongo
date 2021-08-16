@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "neon";
+    src: url("/fon/NEON\ ABSOLUTE\ SANS1.ttf");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("/fon/Roboto-Regular.ttf")
+}
+
+.blanco,
+a,
+h1,
+p,
+li {
+    color: rgb(255, 255, 255);
+    font-family: roboto;
+}
+
+.color {
+
+color: aqua;
+
+}
+
+b {
+    color: white;
+}

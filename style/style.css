@@ -1,0 +1,87 @@
+@import url("font.css");
+@import url("buton.css");
+@import url("media.css");
+@import url("navegator.css");
+@import url("plato.css");
+body {
+    background-color: #020021;
+}
+
+.container-principal {
+    font-family: roboto;
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #020021;
+}
+
+.logo-menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 237px;
+    left: 223px;
+    top: 85px;
+    margin: 20px;
+}
+
+.neon {
+    font-family: neon;
+    font-size: 150%;
+    color: aquamarine;
+    margin: 0px;
+}
+
+
+
+.titulo {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img {
+    margin: 30px;
+    margin-top: 100px;
+    width: 600px;
+    height: 413, 85px;
+}
+
+.final-text-boton2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.final-tex {
+    text-align: center;
+    justify-content: right;
+}
+
+.see {
+    color: black;
+}
+
+.picture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 550%;
+    height: auto;
+    margin-right: 80px;
+}
+
+#audio {
+    display: none
+}
