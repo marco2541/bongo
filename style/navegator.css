@@ -1,0 +1,14 @@
+#navegador {
+    margin: 20px;
+}
+
+#navegador ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#navegador li {
+    display: inline;
+    text-align: center;
+    margin: 0 50px 0 0;
+}

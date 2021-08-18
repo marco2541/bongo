@@ -1,0 +1,70 @@
+
+/* Móviles en vertical */
+@media (max-width: 480px) {
+   
+   
+
+   
+}
+/* Tablets en horizonal y escritorios normales */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .img{
+        position: absolute;
+    }
+    .plato-ride {
+        
+        position: absolute;
+    } 
+    .final-tex {
+        display: none;
+    }
+    #navegador {
+        display: none;
+    }
+    .boton{
+        display: none;
+        
+    }
+    .titulo{
+        display: none;
+    }
+    .logo{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+/* Móviles en horizontal o tablets en vertical */
+@media (max-width: 767px) { 
+    .img{
+        position: absolute;
+    }
+    .plato-ride {
+        
+        position: absolute;
+    } 
+    .final-tex {
+        display: none;
+    }
+    #navegador {
+        display: none;
+    }
+    .boton{
+        display: none;
+        
+    }
+    .titulo{
+        display: none;
+    }
+    .logo{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+   

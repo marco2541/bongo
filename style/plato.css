@@ -1,0 +1,95 @@
+.plato-ride {
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    
+    left: -3%;
+    top: 22%;
+}
+
+.plato-crash {
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    right: -2%;
+    top: 22%;
+    
+}
+
+.tom2 {
+    position: absolute;
+    width: 23%;
+    height: 23%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    left: 25%;
+    top: 30%;
+    
+}
+
+.tom1 {
+    position: absolute;
+    width: 23%;
+    height: 23%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    right: 26%;
+    top: 30%;
+    
+}
+
+.tom-base {
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    left: 5%;
+    top: 40%;
+    
+}
+
+.hit-hat {
+    position: absolute;
+    width: 17%;
+    height: 17%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    right: 6%;
+    top: 40%;
+    
+}
+
+.bombo {
+    position: absolute;
+    width: 22%;
+    height: 22%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    left: 12%;
+    top: 59%;
+    
+}
+
+.caja {
+    position: absolute;
+    width: 22%;
+    height: 22%;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+    right: 13%;
+    top: 59%;
+    
+}
