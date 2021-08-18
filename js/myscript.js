@@ -1,3 +1,8 @@
 var time = new Date();
 console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
-const music= new Audio ("/music/bombo.mp3")
+
+document.addEventListener("click", function(event){
+    let boton= event.target.dataset.boton;
+    let sonido
+
+}
