@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,11 +8,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="myscript.js"></script>
+    
     <title>bongos</title>
 </head>
 
 <body>
+   
+       
+        
 
     <div class="container-principal">
 
@@ -38,16 +42,13 @@
 
                     <li><a href="https://www.youtube.com/watch?v=32si5cfrCNc&list=RDMM&index=3">Log In</a></li>
 
-
-
-
                 </ul>
 
             </div>
 
         </section>
 
-        <div class="music-picture-boton">
+        <main class="music-picture-boton">
 
             <div class="titulo">
                 <h1 blanco>Music for <br> eveyone.</h1>
@@ -60,18 +61,26 @@
 
                 <img class="img" src="fotos/drumkit.png">
 
-                <button class="plato-ride" id="plato"><audio src="sonido/platillo.mp3"></audio></button>
-                <button class="plato-crash"></button>
-                <button class="tom2"></button>
-                <button class="tom1"></button>
-                <button class="tom-base"></button>
-                <button class="hit-hat"></button>
-                <button class="bombo"></button>
-                <button class="caja"></button>
 
+                <button class="plato-ride"></button>
+                <audio id='audiobombo' src=""></audio>
+
+                <button class="plato-ride">plato-ride</button>
+                <button class="plato-crash">plato-crash</button>
+                <button class="tom2">tom2</button>
+                <button class="tom1">tom1</button>
+                <button class="tom-base">tom-base</button>
+                <button class="hit-hat">hit-hat</button>
+                <button class="bombo">bombo</button>
+                <button class="caja">caja</button>
+
+                <button onclick="playbombo()"class= "plato-ride">bombo soy</button>
+                <audio id="sonidobombo" src="./sonido/bombo.mp3"></audio>´
+
+                <audio id="sonidocaja" src="./sonido/caja.mp3"></audio>
             </div>
 
-        </div>
+        </main>
 
         <div class="final-text-boton2">
 
@@ -82,28 +91,9 @@
                 <button class="boton-blanco"><b class="see">SEE PRICING</b></button>
 
 
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+           
         </div>
-
-    </div>
-
-</body>
-
-</html>
+        
+        <script src="main.js"></script>
+        </body>
+        </html>
