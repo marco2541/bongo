@@ -15,52 +15,52 @@ function playredoble(){
 
 }
 
-    function playredoble(){
+    function playcrash(){
         
-        let audio= document.getElementById("redoble");
+        let audio= document.getElementById("crash");
         audio.curretTime=0;
         audio.play();
 
     }
 
-        function playredoble(){
+        function playtom2(){
         
-            let audio= document.getElementById("redoble");
+            let audio= document.getElementById("tom2");
             audio.curretTime=0;
             audio.play();
     
     }
-            function playredoble(){
+            function playtom1(){
             
-                let audio= document.getElementById("redoble");
+                let audio= document.getElementById("tom1");
                 audio.curretTime=0;
                 audio.play();
         
         }
-                function playredoble(){
+                function playtom3(){
             
-                    let audio= document.getElementById("redoble");
+                    let audio= document.getElementById("tom3");
                     audio.curretTime=0;
                     audio.play();
             
             }
-                    function playredoble(){
+                    function playhit(){
             
-                        let audio= document.getElementById("redoble");
+                        let audio= document.getElementById("hit");
                         audio.curretTime=0;
                         audio.play();
                 
                 }
-                        function playredoble(){
+                        function playbombo(){
                     
-                            let audio= document.getElementById("redoble");
+                            let audio= document.getElementById("bombo");
                             audio.curretTime=0;
                             audio.play();
                     
                     }
-                            function playredoble(){
+                            function playcaja(){
                             
-                                let audio= document.getElementById("redoble");
+                                let audio= document.getElementById("caja");
                                 audio.curretTime=0;
                                 audio.play();
                         
