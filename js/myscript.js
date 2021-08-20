@@ -81,6 +81,9 @@ document.addEventListener('click', function(event){
         audioBoton.currentTime=0;
     
         audioBoton.play();
+        // elemento.classList.add("pres")
+
+
         
     
              }

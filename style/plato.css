@@ -1,95 +1,99 @@
-.plato-ride {
+.button_plato-ride {
     position: absolute;
     width: 17%;
     height: 17%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
-    
-    left: -3%;
+    background-color: rgba(255, 255, 255, 0);
+transition: all .1s;    left: -3%;
     top: 22%;
 }
 
-.plato-crash {
+.button_plato-crash {
     position: absolute;
     width: 17%;
     height: 17%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     right: -2%;
     top: 22%;
-    
-}
+transition: all .1s;}
 
-.tom2 {
+.button_tom2 {
     position: absolute;
     width: 23%;
     height: 23%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     left: 25%;
     top: 30%;
-    
-}
+transition: all .1s;}
 
-.tom1 {
+.button_tom1 {
     position: absolute;
     width: 23%;
     height: 23%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     right: 26%;
     top: 30%;
-    
-}
+transition: all .1s;}
 
-.tom-base {
+.button_tom-base {
     position: absolute;
     width: 17%;
     height: 17%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     left: 5%;
     top: 40%;
-    
-}
+transition: all .1s;}
 
-.hit-hat {
+.button_hit-hat {
     position: absolute;
     width: 17%;
     height: 17%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     right: 6%;
     top: 40%;
-    
-}
+transition: all .1s;}
 
-.bombo {
+.button_bombo {
     position: absolute;
     width: 22%;
     height: 22%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     left: 12%;
     top: 59%;
-    
+
+    transition: all .1s;
 }
 
-.caja {
+.button_caja {
     position: absolute;
     width: 22%;
     height: 22%;
     border-radius: 50%;
     border: none;
-    background-color: beige;
+    background-color: rgba(255, 255, 255, 0);
     right: 13%;
     top: 59%;
-    
+    transition: all .1s;
 }
+
+[class*="button_"]:active{
+   background-color: black;
+ 
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+   
+   }
+
