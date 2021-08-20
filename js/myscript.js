@@ -7,64 +7,84 @@ console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds())
 
 // }
 
-function playredoble(){
+// forma larga de hacerla
+// function playredoble(){
        
-       let audio= document.getElementById("redoble");
-       audio.curretTime=0;
-        audio.play();
+//        let audio= document.getElementById("redoble");
+//        audio.curretTime=0;
+//         audio.play();
 
-}
+// }
 
-    function playcrash(){
+//     function playcrash(){
         
-        let audio= document.getElementById("crash");
-        audio.curretTime=0;
-        audio.play();
+//         let audio= document.getElementById("crash");
+//         audio.curretTime=0;
+//         audio.play();
 
-    }
+//     }
 
-        function playtom2(){
+//         function playtom2(){
         
-            let audio= document.getElementById("tom2");
-            audio.curretTime=0;
-            audio.play();
+//             let audio= document.getElementById("tom2");
+//             audio.curretTime=0;
+//             audio.play();
     
-    }
-            function playtom1(){
+//     }
+//             function playtom1(){
             
-                let audio= document.getElementById("tom1");
-                audio.curretTime=0;
-                audio.play();
+//                 let audio= document.getElementById("tom1");
+//                 audio.curretTime=0;
+//                 audio.play();
         
-        }
-                function playtom3(){
+//         }
+//                 function playtom3(){
             
-                    let audio= document.getElementById("tom3");
-                    audio.curretTime=0;
-                    audio.play();
+//                     let audio= document.getElementById("tom3");
+//                     audio.curretTime=0;
+//                     audio.play();
             
-            }
-                    function playhit(){
+//             }
+//                     function playhit(){
             
-                        let audio= document.getElementById("hit");
-                        audio.curretTime=0;
-                        audio.play();
+//                         let audio= document.getElementById("hit");
+//                         audio.curretTime=0;
+//                         audio.play();
                 
-                }
-                        function playbombo(){
+//                 }
+//                         function playbombo(){
                     
-                            let audio= document.getElementById("bombo");
-                            audio.curretTime=0;
-                            audio.play();
+//                             let audio= document.getElementById("bombo");
+//                             audio.curretTime=0;
+//                             audio.play();
                     
-                    }
-                            function playcaja(){
+//                     }
+//                             function playcaja(){
                             
-                                let audio= document.getElementById("caja");
-                                audio.curretTime=0;
-                                audio.play();
+//                                 let audio= document.getElementById("caja");
+//                                 audio.curretTime=0;
+//                                 audio.play();
                         
-                        }
+//                         }
 
+// forma corta 
+
+
+document.addEventListener('click', function(event){
+        let nombreBoton = event.target.dataset.instrumento;
+        let elemento= event.target;
+            
+        if(nombreBoton){
+            
+        let audioBoton = document.getElementById(nombreBoton);
+        
+        audioBoton.currentTime=0;
+    
+        audioBoton.play();
+        
+    
+             }
+    
+        });
 
 
